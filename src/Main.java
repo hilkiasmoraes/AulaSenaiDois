@@ -10,6 +10,10 @@ public class Main {
         System.out.println("O salário do funcionário é " + empresa.valorSalarioFuncionario);
         System.out.println("O cargo do funcionário é de " + empresa.cargoFuncionario);
 
+        // Testando a nova Branch
+        Empresa empresa = new Empresa();
+        System.out.println(empresaSetor.nomeSetorJuridico);
+        System.out.println(empresaSetor.nomeSetorRH);
 
         Funcionario funcionario = new Funcionario();
         System.out.println("O nome do funcionário é " + funcionario.nomeFuncionario);
